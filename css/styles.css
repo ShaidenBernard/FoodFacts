@@ -1,0 +1,134 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Alkatra', cursive;
+}
+
+html {
+	background-color: #1965CF;
+}
+
+header {
+	background-color: #0D3369;
+	text-align: center;
+}
+
+.topnav {
+	background-color: #1965CF;
+	border-bottom: 5px solid #0D3369;
+}
+
+.topnav ul {
+	text-align: center;
+}
+
+.topnav li {
+	display: inline-block;
+}
+
+.topnav li a {
+	color: white;
+	display: block;
+	list-style-type: none;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.bottomnav {
+	background-color: #1965CF;
+	border-top: 5px solid #0D3369;
+}
+
+.bottomnav ul {
+	text-align: center;
+}
+
+.bottomnav li {
+	display: inline-block;
+}
+
+.bottomnav li a {
+	color: white;
+	display: block;
+	list-style-type: none;
+	text-decoration: none;
+	padding: 20px;
+}
+li a:hover {
+	text-shadow: 5px 5px 5px black;
+}
+
+main h2 {
+	font-weight: 900;
+	font-size: 200%;
+	text-align: center;
+}
+
+main ul {
+	background-color: darkgray;
+	border-radius: 10px;
+	border: 10px solid black;
+	margin: 2%;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+main h3 {
+	display: block;
+	float: left;
+	margin-right: 20%;
+	margin-left: 1%;
+}
+
+main li img {
+	max-height: 500px;
+	max-width: 500px;
+	border-radius: 10px;
+	border: 6px solid black;
+}
+
+main li p {
+	border-top: 4px solid black;
+	color: white;
+	margin-left: 1%;
+	font-size: 30px;
+}
+
+.ps {
+	border: 10px solid black;
+	background-color: #1965CF; 
+	color: white;
+	margin: 1%;
+	padding: 1%;
+	font-size: 30px;
+	text-align: center;
+}
+
+main li {
+	background-color: grey;
+	border-radius: 10px;
+	padding: 2%;
+	margin: 2%;
+}
+
+input {
+	margin: 2%;
+	padding: 1% 2%;
+	display: block;
+	margin: 1% auto;
+}
+
+label {
+	font-size: 50px;
+	display: block;
+	text-align: center;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 1%;
+}
